@@ -1,0 +1,24 @@
+{
+  "smtpHost": "smtp.office365.com",
+  "smtpPort": 587,
+  "smtpUser": "guilherme.brito.ter@mpba.mp.br",
+  "smtpPass": "ccbmkxdkvwnhvkrm",
+  "smtpSecure": false,
+  "senderName": "Central Logística CBP - Coordenação de Patrimônio",
+  "senderEmail": "guilherme.brito.ter@mpba.mp.br",
+  "destinatarios": [
+    "guilherme.brito.ter@mpba.mp.br"
+  ],
+  "ativo": true,
+  "notificarNovasDemandas": true,
+  "notificarMudancaStatus": true,
+  "notificarOcorrenciasUrgentes": true,
+  "notificarAtividadeIniciada": true,
+  "notificarAtividadeParadaSemana": true,
+  "diasAtividadeParada": 7,
+  "notificarLembreteAcesso": true,
+  "lembreteAcessoSiteDias": 4,
+  "modoEnvio": "outlook_m365",
+  "hasCustomPassword": true,
+  "ultimoLembreteAcessoEm": "2026-09-25T20:27:26.087Z"
+}

@@ -1,0 +1,6 @@
+{
+  "name": "Central Logística CBP",
+  "description": "Plataforma integrada de planejamento e controle logístico da Coordenação de Patrimônio Material do Ministério Público.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

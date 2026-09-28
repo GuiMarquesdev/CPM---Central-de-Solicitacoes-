@@ -1,0 +1,94 @@
+{
+  "entities": {
+    "Usuario": {
+      "title": "Usuario",
+      "description": "User profile in the application",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "nome": { "type": "string" },
+        "email": { "type": "string" },
+        "role": { "type": "string" }
+      },
+      "required": ["id", "nome", "email", "role"]
+    },
+    "Solicitacao": {
+      "title": "Solicitacao",
+      "description": "Logistic solicitation or demand",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "tipo": { "type": "string" },
+        "status": { "type": "string" },
+        "periodo": { "type": "string" }
+      },
+      "required": ["id", "tipo", "status"]
+    },
+    "Equipe": {
+      "title": "Equipe",
+      "description": "Team definition",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "nome": { "type": "string" }
+      },
+      "required": ["id", "nome"]
+    },
+    "Rota": {
+      "title": "Rota",
+      "description": "Delivery route definition",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" }
+      },
+      "required": ["id"]
+    },
+    "Comunicado": {
+      "title": "Comunicado",
+      "description": "Notice or broadcast message",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "titulo": { "type": "string" },
+        "conteudo": { "type": "string" }
+      },
+      "required": ["id", "titulo", "conteudo"]
+    },
+    "Notificacao": {
+      "title": "Notificacao",
+      "description": "Operational notification",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "mensagem": { "type": "string" }
+      },
+      "required": ["id", "mensagem"]
+    }
+  },
+  "firestore": {
+    "usuarios": {
+      "schema": "Usuario",
+      "description": "User profiles collection"
+    },
+    "solicitacoes": {
+      "schema": "Solicitacao",
+      "description": "Logistic requests collection"
+    },
+    "equipes": {
+      "schema": "Equipe",
+      "description": "Teams collection"
+    },
+    "rotas": {
+      "schema": "Rota",
+      "description": "Routes collection"
+    },
+    "comunicados": {
+      "schema": "Comunicado",
+      "description": "Notices collection"
+    },
+    "notificacoes": {
+      "schema": "Notificacao",
+      "description": "Notifications collection"
+    }
+  }
+}

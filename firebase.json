@@ -1,0 +1,8 @@
+{
+  "firestore": [
+    {
+      "database": "ai-studio-centrallogsticac-c66895a1-1a11-4fdb-8bf4-b7343bd36958",
+      "rules": "firestore.rules"
+    }
+  ]
+}
